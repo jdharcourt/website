@@ -61,7 +61,13 @@ body {
   right: -100px;
 }
 
-.site-header,
+.site-header {
+  position: relative;
+  z-index: 10;
+}
+
+
+
 main,
 .site-footer {
   position: relative;
