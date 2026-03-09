@@ -38,10 +38,9 @@ export default function HomePage() {
             src="/glucobit-logo.png"
             alt="GlucoBit logo"
             className="brand-logo"
-            width={30}
-            height={30}
+            width={50}
+            height={50}
           />
-          <span>GlucoBit</span>
         </a>
 
         <button
@@ -91,7 +90,7 @@ export default function HomePage() {
             </div>
             <ul className="meta-list">
               <li>Minute-by-minute updates</li>
-              <li>Battery-powered + deep sleep</li>
+              <li>Fully Battery-powered</li>
               <li>US &amp; international Dexcom Share servers</li>
             </ul>
           </div>
@@ -104,8 +103,8 @@ export default function HomePage() {
                   <span className="status">In Range</span>
                 </div>
                 <div className="reading-wrap">
-                  <p className="reading">109</p>
-                  <p className="units">mg/dL</p>
+                  <p className="reading">6.7</p>
+                  <p className="units">mmol/L</p>
                 </div>
                 <div className="trend">
                   <span className="arrow">↗</span>
@@ -121,7 +120,7 @@ export default function HomePage() {
         <section id="how" className="section reveal">
           <div className="section-head">
             <p className="eyebrow">How It Works</p>
-            <h2>Focused glucose visibility from cloud to device</h2>
+            <h2>Conveniently View Your Glucose Data</h2>
           </div>
           <div className="grid three">
             <article className="card">
@@ -134,7 +133,7 @@ export default function HomePage() {
             </article>
             <article className="card">
               <h3>3. Alert</h3>
-              <p>Urgent lows trigger bright visual warnings, RGB LEDs, and loud audio prompts until acknowledged.</p>
+              <p>Urgent lows trigger visual warnings, RGB LEDs, and loud audio prompt alerts that continue until acknowledged.</p>
             </article>
           </div>
         </section>
@@ -142,12 +141,12 @@ export default function HomePage() {
         <section id="features" className="section reveal">
           <div className="section-head">
             <p className="eyebrow">Features</p>
-            <h2>Built for fast decisions and everyday confidence</h2>
+            <h2>Built to imporve saftey and everyday confidence</h2>
           </div>
           <div className="grid two">
             <article className="feature-card">
-              <h3>Real-Time Dexcom Display</h3>
-              <p>Minute-by-minute glucose updates from Dexcom Share, shown on a bright 280x240 color display.</p>
+              <h3>Real-Time Glucose Display</h3>
+              <p>Minute-by-minute glucose updates from Dexcom Share, shown on a bright, full color display.</p>
             </article>
             <article className="feature-card">
               <h3>Strong Visual Language</h3>
@@ -175,13 +174,13 @@ export default function HomePage() {
         <section id="alerts" className="section reveal">
           <div className="section-head">
             <p className="eyebrow">Alert System</p>
-            <h2>Calm when stable. Impossible to miss when urgent.</h2>
+            <h2>Convenient visualisation when stable. Impossible to miss when urgent.</h2>
           </div>
           <div className="alert-panel">
             <div>
-              <h3>Configurable Low Alarm</h3>
+              <h3>Urgent Low Alerts</h3>
               <p>
-                Set your preferred low threshold. When crossed, GlucoBit enters a high-attention mode with flashing
+                When low, GlucoBit enters a high-attention mode with flashing
                 screen cues, LED emphasis, and loud I2S audio alerts.
               </p>
             </div>
@@ -196,7 +195,7 @@ export default function HomePage() {
         <section id="setup" className="section reveal">
           <div className="section-head">
             <p className="eyebrow">Setup Process</p>
-            <h2>Web-based onboarding in minutes</h2>
+            <h2>Web-based setup in minutes</h2>
           </div>
           <ol className="steps">
             <li>
@@ -258,6 +257,18 @@ export default function HomePage() {
             <details>
               <summary>Does GlucoBit replace the official Dexcom app?</summary>
               <p>No. GlucoBit is designed as a companion display for fast visibility and local alerts.</p>
+            </details>
+            <details>
+              <summary>Is it compatible with all Dexcom CGM models?</summary>
+              <p>GlucoBit works with any Dexcom CGM that supports Share and cloud data access, including G6 and G7.</p>
+            </details>
+            <details>
+              <summary>Can I use it with other CGM brands?</summary>
+              <p>Currently, GlucoBit is built specifically for Dexcom Share data. Support for other CGM platforms is comming soon.</p>
+            </details>
+            <details>
+              <summary>Is it currently available?</summary>
+              <p>No. GlucoBit is still udergoing development and testing.</p>
             </details>
             <details>
               <summary>Can I switch between mg/dL and mmol/L?</summary>
