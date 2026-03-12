@@ -474,6 +474,11 @@ h1 {
     background: transparent;
   }
 
+  .nav-text:hover {
+    transform: scale(1.1);
+    color: #c7d7eb
+  }
+
   .hero {
     grid-template-columns: 1.1fr 0.9fr;
     align-items: center;
@@ -483,6 +488,22 @@ h1 {
   .section {
     padding: 32px;
     margin-top: 30px;
+  }
+
+  .icons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-content: center;
+  }
+
+  .icons img {
+    cursor: pointer;
+    transition: transform 0.15s ease;
+  }
+
+  .icons img:hover {
+    transform: scale(1.5);
   }
 
   .two {

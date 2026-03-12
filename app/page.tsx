@@ -53,19 +53,19 @@ export default function HomePage() {
         </button>
 
         <nav id="nav" className={`nav ${menuOpen ? 'open' : ''}`} aria-label="Main">
-          <a href="#how" onClick={() => setMenuOpen(false)}>
+          <a href="#how" className='nav-text' onClick={() => setMenuOpen(false)}>
             How It Works
           </a>
-          <a href="#features" onClick={() => setMenuOpen(false)}>
+          <a href="#features" className='nav-text' onClick={() => setMenuOpen(false)}>
             Features
           </a>
-          <a href="#alerts" onClick={() => setMenuOpen(false)}>
+          <a href="#alerts" className='nav-text' onClick={() => setMenuOpen(false)}>
             Alerts
           </a>
-          <a href="#setup" onClick={() => setMenuOpen(false)}>
+          <a href="#setup" className='nav-text' onClick={() => setMenuOpen(false)}>
             Setup
           </a>
-          <a href="#faq" onClick={() => setMenuOpen(false)}>
+          <a href="#faq" className='nav-text' onClick={() => setMenuOpen(false)}>
             FAQ
           </a>
         </nav>
@@ -141,7 +141,7 @@ export default function HomePage() {
         <section id="features" className="section reveal">
           <div className="section-head">
             <p className="eyebrow">Features</p>
-            <h2>Built to imporve saftey and everyday confidence</h2>
+            <h2>Built to imporve safety and everyday confidence</h2>
           </div>
           <div className="grid two">
             <article className="feature-card">
@@ -291,12 +291,42 @@ export default function HomePage() {
             confirm readings and follow guidance from your healthcare provider and official CGM apps.
           </p>
         </section>
+
+        
       </main>
+
 
       <footer className="site-footer">
         <p>
           © {year} GlucoBit. Portable glucose visibility, designed for clarity.
         </p>
+
+        
+        <div className='icons'>
+          <a 
+            href="https://github.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <img 
+              src="/github.svg" 
+              alt="GitHub"
+              style={{ width: 42, height: 42 }}
+            />
+          </a>
+
+          <a 
+            href="mailto:john_doe@example.com"
+          >
+            <img 
+              src="/email.svg" 
+              alt="Email"
+              style={{ width: 42, height: 42 }}
+            />
+          </a>
+
+        </div>
+
       </footer>
     </>
   );
