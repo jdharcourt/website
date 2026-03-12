@@ -316,7 +316,7 @@ export default function HomePage() {
           </a>
 
           <a 
-            href="mailto:john_doe@example.com"
+            href="mailto:james.harcourt@2028.castleknockcollege.ie"
           >
             <img 
               src="/email.svg" 
